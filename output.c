@@ -33,9 +33,36 @@ int main(){
     printf("%lld\n", Long_num);
 
 
-    printf("%d\n", number); 
+    printf("%d\n", number); //%d is a formate Specifairs
     printf("%lld\n", long_number); 
     printf("%ld\n", _long_num);
+/*
+
+formate Specifiers
+
+%d    int
+%i    int (same as %d)
+%u    unsigned int
+%ld   long
+%lld  long long
+%lu   unsigned long
+
+%f   // float
+%lf  // double
+%e   // scientific notation
+%g   // shortest of %f or %e
+
+
+%c   // char
+%s   // string (char array or char pointer)
+
+%o   // octal
+%x   // hexadecimal (lowercase)
+%X   // hexadecimal (uppercase)
+%p   // pointer address
+%%   // prints % symbol
+
+*/
     
     printf("%ld\n", _long_N);
     
