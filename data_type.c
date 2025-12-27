@@ -9,6 +9,19 @@
 //double                8
 //long double           10
 
+/*
+| Data Type | Format |
+| --------- | ------ |
+| int       | `%d`   |
+| long      | `%ld`  |
+| long long | `%lld` |
+| float     | `%f`   |
+| double    | `%lf`  |
+| char      | `%c`   |
+| string    | `%s`   |
+*/
+
+
 // data type hota hai ki aap memory me kis type ka data store kar rahe hai like : number, decimal number, alphabet, sentance, etc.
 
 int age = 21;
