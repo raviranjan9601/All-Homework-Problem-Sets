@@ -51,10 +51,10 @@ int main() {
     long b = 123456789L;
     long long c = 9876543210LL;
 
-    float f = 3.14f;
+    float f = 3.14;
     double d = 9.87654321;
 
-    char ch = 'A';
+    char ch = '*';
     char name[] = "RAVI RANJAN";
 
     printf("int value: %d\n", a);
