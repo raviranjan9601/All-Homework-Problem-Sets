@@ -56,10 +56,6 @@ int main(){
     
     printf("A ^ B = %d\n", power);
 
-
-
-    
-
     return 0;
     
 }
