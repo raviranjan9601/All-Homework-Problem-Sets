@@ -35,6 +35,30 @@ int main(){
     printf("REMAINDER Value : %.2f\n", (float)(a % (int)b));
 
     printf("REMENDER Value : %.2f\n", fmod(a, b)); //Use fmod() for float remainder
+
+
+    // Normal arithmetic (int)
+    printf("ADD Value : %d\n", A + B);
+    printf("SUBTRACT Value : %d\n", A - B);
+    printf("MULTIPLY Value : %d\n", A * B);
+    printf("DIVISION Value : %d\n", A / B);
+    printf("REMAINDER Value : %d\n\n", A % B);
+
+    // Type conversion
+
+    printf("ADD Value : %.2f\n", a + b);
+    printf("SUBTRACT Value : %.2f\n", a - b);
+    printf("MULTIPLY Value : %.2f\n", a * b);
+    printf("DIVISION Value : %.2f\n", a / b);
+
+    // Remainder examples
+    printf("REMAINDER (int %% int) : %d\n", a % (int)b);
+    printf("REMAINDER (float) : %.2f\n", fmod(a, b));
+
+    
+
+
+
     
     return 0;
     
